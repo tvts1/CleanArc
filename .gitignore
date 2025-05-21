@@ -1,0 +1,41 @@
+# Diretórios de build
+target/
+
+# Arquivos de log
+*.log
+
+# Arquivos compilados
+*.class
+
+# Configurações do IDE
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Configurações específicas do VSCode
+.vscode/
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos temporários
+*.tmp
+*.swp
+*~
+
+# Arquivos de backup do sistema
+*.bak
+*.old
+
+# Credenciais (caso use)
+*.env
+.env
+*.key
+*.pem
+
+# Teste de cobertura e relatórios
+coverage/
+jacoco.exec
+
