@@ -1,1 +1,15 @@
-spring.application.name=EventCelan
+spring:
+  application:
+    name: EventClean
+
+  datasource:
+    url: jdbc:postgresql://localhost:5431/EventClean
+    username: postgres
+    password: postgres
+    drive-class-name: org.postgresql.Drive
+
+  jpa:
+    show-sql: true
+
+  flyway:
+    enable: true
